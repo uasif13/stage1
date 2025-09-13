@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_igraph_vector_int_list_sort.dir/link.d CMakeFiles/example_igraph_vector_int_list_sort.dir/__/examples/simple/igraph_vector_int_list_sort.c.o -o example_igraph_vector_int_list_sort  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

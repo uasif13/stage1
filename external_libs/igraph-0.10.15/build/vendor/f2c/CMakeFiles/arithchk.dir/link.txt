@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/arithchk.dir/link.d CMakeFiles/arithchk.dir/arithchk.c.o -o arithchk  -lm

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_tutorial3.dir/link.d CMakeFiles/example_tutorial3.dir/__/examples/tutorial/tutorial3.c.o -o example_tutorial3  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

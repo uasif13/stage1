@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_bellman_ford.dir/link.d CMakeFiles/example_bellman_ford.dir/__/examples/simple/bellman_ford.c.o -o example_bellman_ford  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

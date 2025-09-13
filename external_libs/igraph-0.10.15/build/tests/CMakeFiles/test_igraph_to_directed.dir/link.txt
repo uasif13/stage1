@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_igraph_to_directed.dir/link.d CMakeFiles/test_igraph_to_directed.dir/unit/igraph_to_directed.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_igraph_to_directed  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

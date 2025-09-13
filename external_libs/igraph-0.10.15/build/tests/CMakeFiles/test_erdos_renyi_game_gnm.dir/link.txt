@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_erdos_renyi_game_gnm.dir/link.d CMakeFiles/test_erdos_renyi_game_gnm.dir/unit/erdos_renyi_game_gnm.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_erdos_renyi_game_gnm  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

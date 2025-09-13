@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/benchmark_intersection.dir/link.d CMakeFiles/benchmark_intersection.dir/benchmarks/intersection.c.o -o benchmark_intersection  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

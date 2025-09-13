@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_cohesive_blocks.dir/link.d CMakeFiles/example_cohesive_blocks.dir/__/examples/simple/cohesive_blocks.c.o -o example_cohesive_blocks  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

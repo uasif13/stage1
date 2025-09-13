@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_igraph_path_length_hist.dir/link.d CMakeFiles/test_igraph_path_length_hist.dir/unit/igraph_path_length_hist.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_igraph_path_length_hist  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

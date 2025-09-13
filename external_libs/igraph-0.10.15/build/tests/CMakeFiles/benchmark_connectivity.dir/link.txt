@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/benchmark_connectivity.dir/link.d CMakeFiles/benchmark_connectivity.dir/benchmarks/connectivity.c.o -o benchmark_connectivity  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

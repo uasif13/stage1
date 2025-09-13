@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_igraph_power_law_fit.dir/link.d CMakeFiles/test_igraph_power_law_fit.dir/unit/igraph_power_law_fit.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_igraph_power_law_fit  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_hub_and_authority.dir/link.d CMakeFiles/test_hub_and_authority.dir/unit/hub_and_authority.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_hub_and_authority  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

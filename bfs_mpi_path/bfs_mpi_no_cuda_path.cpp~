@@ -171,7 +171,6 @@ int main(int argc, char * argv[]) {
   uint64_t nVV;
 
   int astar_result = -1;
-  bool lgl = false;
   
   MPI_Comm world = MPI_COMM_WORLD;
   
@@ -180,13 +179,7 @@ int main(int argc, char * argv[]) {
   MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
   MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
   // Initialization
-  if (argc == 3) {
-    lgl = true;
-    int i = 1;
-    start = atoi(argv[i++]);
-    end = atoi(argv[i++]);
-  }
-  else if (argc == 4) {
+  if (argc == 4) {
     int i = 1;
     grid_size = atoi(argv[i++]);
     start = atoi(argv[i++]);
@@ -199,9 +192,15 @@ int main(int argc, char * argv[]) {
     //heuristic = "manhattan";
   }
   no_of_nodes = grid_size*grid_size;
-  if (lgl)
-    no_of_nodes = 558328;
-  printf("no_of_nodes: %d\n", no_of_nodes);
+  /* if (heuristic == "manhattan")
+    heuristic_type = 0;
+  else
+  heuristic_type = 1;*/
+  if (start >= no_of_nodes || end >= no_of_nodes) {
+    printf("Error: start_node %d or end_node %d has to be valid node[0-%d]\n", start, end, no_of_nodes-1);
+  }
+  // astar lists
+  
   uint64_t * hList = new uint64_t[no_of_nodes];
   uint64_t * gList = new uint64_t[no_of_nodes];
   uint64_t * openList = new uint64_t[no_of_nodes];
@@ -220,15 +219,8 @@ int main(int argc, char * argv[]) {
 
 
   openList[start] = 1;
-  printf("arrays initialized\n");
-  /* if (heuristic == "manhattan")
-    heuristic_type = 0;
-  else
-  heuristic_type = 1;*/
-  if (start >= no_of_nodes || end >= no_of_nodes) {
-    printf("Error: start_node %d or end_node %d has to be valid node[0-%d]\n", start, end, no_of_nodes-1);
-  }
-  
+
+
   printf("my_rank: %d start: %d, end: %d\n", my_rank, start, end);
   if (my_rank == ROOT) {
     // Create graph
@@ -240,7 +232,7 @@ int main(int argc, char * argv[]) {
       igraph_adjlist_t al;
 
       FILE * output;
-      if (!lgl) {
+  
       output = fopen("output.dot", "w");
       igraph_vector_int_init(&dimvector, 2);
       VECTOR(dimvector) [0] = grid_size;
@@ -261,14 +253,7 @@ int main(int argc, char * argv[]) {
       if (output != NULL && grid_size <= 10) {
 	igraph_write_graph_dot(&igraph, output);
       }
-      }
-      printf("lgl read begins\n");
-      if (lgl) {
-	FILE * input;
-	
-	input = fopen("../opte-out.lgl", "rb");
-	igraph_read_graph_lgl(&igraph, input, false, IGRAPH_ADD_WEIGHTS_NO, IGRAPH_UNDIRECTED);
-      }
+
       total_src = igraph_vcount(&igraph)+1;
       total_dst = igraph_ecount(&igraph)*2;
       printf("my_rank: %d total_src: %*" PRIu64 " total_dst %*" PRIu64 "\n", my_rank, 10, total_src,10, total_dst);
@@ -297,8 +282,6 @@ int main(int argc, char * argv[]) {
     printf("my_rank: %d before broadcast nprocs: %d no_of_nodes: %d edges: %d\n", my_rank, nprocs, no_of_nodes, total_dst);
     
   }
-  // astar lists
-
   // broadcast graph
   MPI_Bcast(&total_src, 1, MPI_UINT64_T, ROOT, MPI_COMM_WORLD);
   MPI_Barrier(MPI_COMM_WORLD);

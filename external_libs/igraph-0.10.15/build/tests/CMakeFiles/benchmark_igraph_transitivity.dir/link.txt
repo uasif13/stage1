@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/benchmark_igraph_transitivity.dir/link.d CMakeFiles/benchmark_igraph_transitivity.dir/benchmarks/igraph_transitivity.c.o -o benchmark_igraph_transitivity  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

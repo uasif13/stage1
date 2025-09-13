@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_igraph_average_path_length.dir/link.d CMakeFiles/example_igraph_average_path_length.dir/__/examples/simple/igraph_average_path_length.c.o -o example_igraph_average_path_length  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

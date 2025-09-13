@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_marked_queue.dir/link.d CMakeFiles/test_marked_queue.dir/unit/marked_queue.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_marked_queue  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

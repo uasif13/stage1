@@ -1,0 +1,5 @@
+273:test::bug_2506
+341:example::graphml
+351:test::igraph_read_graph_graphml
+483:test::cattr_bool_bug
+484:test::cattr_bool_bug2

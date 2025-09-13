@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_igraph_read_graph_graphdb.dir/link.d CMakeFiles/example_igraph_read_graph_graphdb.dir/__/examples/simple/igraph_read_graph_graphdb.c.o -o example_igraph_read_graph_graphdb  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

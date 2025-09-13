@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test_igraph_induced_subgraph_edges.dir/link.d CMakeFiles/test_igraph_induced_subgraph_edges.dir/unit/igraph_induced_subgraph_edges.c.o CMakeFiles/test_utilities.dir/unit/test_utilities.c.o -o test_igraph_induced_subgraph_edges  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

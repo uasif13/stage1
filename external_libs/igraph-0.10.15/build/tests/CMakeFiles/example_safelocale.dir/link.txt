@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/example_safelocale.dir/link.d CMakeFiles/example_safelocale.dir/__/examples/simple/safelocale.c.o -o example_safelocale  ../src/libigraph.a -lm /usr/lib/gcc/x86_64-redhat-linux/15/libgomp.so /usr/lib64/libpthread.a

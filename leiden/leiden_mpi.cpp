@@ -97,14 +97,14 @@ static igraph_error_t igraph_i_community_leiden_fastmovenodes_directed(
     /* Add to the queue */
     igraph_integer_t start_mpi_index = my_rank*my_work;
     igraph_integer_t end_mpi_index = (my_rank+1)*my_work;
-    for (igraph_integer_t i = start_mpi_index; i < end_mpi_index; i++) {
+    for (igraph_integer_t i = 0; i < n; i++) {
         IGRAPH_CHECK(igraph_dqueue_int_push(&unstable_nodes, VECTOR(node_order)[i]));
     }
 
     /* Initialize cluster weights and nb nodes */
     IGRAPH_VECTOR_INIT_FINALLY(&cluster_weights, n);
     IGRAPH_VECTOR_INT_INIT_FINALLY(&nb_nodes_per_cluster, n);
-    for (igraph_integer_t i = start_mpi_index; i < end_mpi_index; i++) {
+    for (igraph_integer_t i = 0; i < n; i++) {
         c = VECTOR(membership)[i];
         VECTOR(cluster_weights)[c] += VECTOR(*node_weights)[i];
         VECTOR(nb_nodes_per_cluster)[c] += 1;
@@ -112,7 +112,7 @@ static igraph_error_t igraph_i_community_leiden_fastmovenodes_directed(
 
     /* Initialize empty clusters */
     IGRAPH_STACK_INT_INIT_FINALLY(&empty_clusters, n);
-    for (c = start_mpi_index; c < end_mpi_index; c++)
+    for (c = 0; c < n; c++)
         if (VECTOR(nb_nodes_per_cluster)[c] == 0) {
             IGRAPH_CHECK(igraph_stack_int_push(&empty_clusters, c));
         }
@@ -184,6 +184,8 @@ static igraph_error_t igraph_i_community_leiden_fastmovenodes_directed(
             /* Only consider strictly improving moves.
              * Note that this is important in considering convergence.
              */
+            printf("my_rank: %d [igraph_i_community_leiden_fastmovenodes_directed] modularity calculation node: %d diff: %f neighboring cluster: %d \n", my_rank, v, diff,c);
+
             if (diff > max_diff) {
                 best_cluster = c;
                 max_diff = diff;
@@ -809,7 +811,7 @@ static igraph_error_t igraph_i_community_leiden_directed(
         /* We only continue clustering if not all clusters are represented by a
          * single node yet
          */
-        continue_clustering = (*nb_clusters < igraph_vcount(i_graph));
+        continue_clustering = (*nb_clusters < n);
 
         if (continue_clustering) {
             /* Set original membership */
@@ -883,8 +885,9 @@ static igraph_error_t igraph_i_community_leiden_directed(
         /* We are done iterating, so we destroy the incidence list */
         igraph_inclist_destroy(&edges_per_node);
         IGRAPH_FINALLY_CLEAN(1);
-    } while (false);
-    // while (continue_clustering);
+    } 
+    // while (false);
+    while (continue_clustering);
 
     // /* Free aggregated graph and associated vectors */
     // igraph_vector_int_destroy(&aggregated_membership);

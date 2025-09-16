@@ -9,14 +9,14 @@ Contains distributed version of bfs \
 To run: \
 cd bfs_mpi_path \
 mpicxx bfs_mpi.cpp -I/usr/local/include/igraph -L/usr/local/lib -ligraph -o bfs_mpi \
-mpirun -n <nprocs> bfs_mpi \
+mpirun -n <nprocs> bfs_mpi 
 
 /datasets \
 Contains dataset_test, dataset_mapped, dataset.tsv (original) \
 
 /leiden \
 Contains distributed version of leiden (WCC) \
-WIP \
+WIP 
 
 /viecut \
-TODO \
+TODO 

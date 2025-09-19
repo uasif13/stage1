@@ -1,0 +1,266 @@
+import leidenalg as la
+import igraph as ig
+g = ig.read("./datasets/dataset_test.gml")
+partition = la.find_partition(g, la.CPMVertexPartition,resolution_parameter = 0.05)
+partition.membership
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+>>> ig.plot(partition)
+
+pycairo or cairocffi
+
+citation read begins
+0 0 0 0 0 0 0 0 0 0
+no_of_nodes: 10
+[igraph_community_leiden_directed] start
+[igraph_community_leiden_directed] enter for loop
+my_rank: 1 [igraph_i_community_leiden_directed] start
+[igraph_i_community_leiden_directed] enter while loop
+[igraph_i_community_leiden_directed] inside while loop
+0 1 2 3 4 5 6 7 8 9
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 2  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 3  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 4  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 4  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 5  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 6  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 7  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 8  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 9  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 3  level: 0 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 4  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 1  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 4  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 8 neighbor_cluster: 8  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 8 neighbor_cluster: 9  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 7  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 9  level: 0 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 7  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 9  level: 0 diff: 2.850000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 9 neighbor_cluster: 7  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 3  level: 0 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 4  level: 0 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 6  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 0  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 4  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 0  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 6  level: 0 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 9  level: 0 diff: 2.850000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 7  level: 0 diff: 0.950000 
+my_rank: 1 [igraph_i_communitcitation read begins
+0 0 0 0 0 0 0 0 0 0
+no_of_nodes: 10
+[igraph_community_leiden_directed] start
+[igraph_community_leiden_directed] enter for loop
+my_rank: 0 [igraph_i_community_leiden_directed] start
+[igraph_i_community_leiden_directed] enter while loop
+[igraph_i_community_leiden_directed] inside while loop
+0 1 2 3 4 5 6 7 8 9
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 2  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 3  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 4  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 4  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 5  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 6  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 7  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 8  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 9  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 3  level: 0 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 4  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 1  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 4  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 8 neighbor_cluster: 8  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 8 neighbor_cluster: 9  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 7  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 9  level: 0 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 7  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 9  level: 0 diff: 2.850000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 9 neighbor_cluster: 7  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 3  level: 0 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 4  level: 0 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 6  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 0  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 4  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 0  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 6  level: 0 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 9  level: 0 diff: 2.850000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 7  level: 0 diff: 0.950000 
+my_rank: 0 [igraph_i_communityy_leiden_fastmovenodes_directed] node: 9 neighbor_cluster: 7  level: 0 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 1 1 2 2 2 2 3
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 1 1 2 2 2 2 3
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 1 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 1 diff: 3.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 1 diff: 0.600000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 3  level: 1 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 0  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 1 diff: 1.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 0  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 1  level: 1 diff: 0.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 2  level: 1 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 3  level: 1 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 0  level: 1 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 3  level: 1 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 0  level: 1 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 0  level: 1 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 1 1 2 2 2 2 3
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 0 1 2 2 3 3 4
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 3  level: 2 diff: 3.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 4  level: 2 diff: 1.900000 
+_leiden_fastmovenodes_directed] node: 9 neighbor_cluster: 7  level: 0 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 1 1 2 2 2 2 3
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 1 1 2 2 2 2 3
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 1 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 1 diff: 3.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 1 diff: 0.600000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 3  level: 1 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 0  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 1 diff: 1.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 0  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 1  level: 1 diff: 0.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 2  level: 1 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 3  level: 1 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 0  level: 1 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 3  level: 1 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 0  level: 1 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 7  level: 1 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 7 neighbor_cluster: 0  level: 1 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 1 1 2 2 2 2 3
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 1  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 4  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 4  level: 2 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 2 diff: 2.850000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 2 diff: 2.850000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 3  level: 2 diff: 0.550000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 2 diff: 0.950000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 4  level: 2 diff: 1.900000 
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 0 1 2 2 3 3 4
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 3  level: 2 diff: 3.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 4  level: 2 diff: 1.900000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 0 1 2 2 3 3 4
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 1 1 2 2 3 3 3
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 1  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 6 neighbor_cluster: 4  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 4  level: 2 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 2 diff: 2.850000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 5  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 3  level: 3 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 5  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 3 diff: 5.700000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 3 diff: 0.700000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 2 diff: 2.850000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 3  level: 2 diff: 0.550000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 2 diff: 0.950000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 2  level: 2 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 4  level: 2 diff: 1.900000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 2  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 3  level: 3 diff: 3.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 5  level: 3 diff: 1.900000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 2  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 3 diff: 0.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 2  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 5  level: 3 diff: 0.000000 
+0 0 0 0 1 2 2 3 3 4
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 1 1 2 2 3 3 3
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 1 1 2 2 3 3 3
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 0 1 2 2 2 2 3
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 4 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 4 diff: 3.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 4 diff: 0.200000 
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 5  level: 3 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 4 neighbor_cluster: 3  level: 3 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 5  level: 3 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 3 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 3 diff: 5.700000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 3 diff: 0.700000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 2  level: 3 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 2  level: 4 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 3  level: 4 diff: 3.800000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 2  level: 4 diff: 0.000000 
+my_rank: 1 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 0  level: 4 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 0 1 2 2 2 2 3
+[igraph_i_community_leiden_directed] after while loop
+0 0 0 0 1 2 2 2 2 3
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 3  level: 3 diff: 3.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 5  level: 3 diff: 1.900000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 2  level: 3 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 1  level: 3 diff: 0.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 2  level: 3 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 5 neighbor_cluster: 5  level: 3 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 1 1 2 2 3 3 3
+[igraph_i_community_leiden_directed] inside while loop
+0 0 0 0 1 2 2 2 2 3
+[igraph_i_community_leiden_fastmovenodes_directed] enter fastmovenodes
+[igraph_i_community_leiden_fastmovenodes_directed] enter while loop
+my_rank: 1 no of clusters: 4 no_of_nodes: 10 no_of_edges: 21
+0 0 0 0 1 2 2 2 2 3
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 0  level: 4 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 1  level: 4 diff: 3.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 0 neighbor_cluster: 2  level: 4 diff: 0.200000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 2  level: 4 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 2 neighbor_cluster: 3  level: 4 diff: 3.800000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 3 neighbor_cluster: 2  level: 4 diff: 0.000000 
+my_rank: 0 [igraph_i_community_leiden_fastmovenodes_directed] node: 1 neighbor_cluster: 0  level: 4 diff: 0.000000 
+[igraph_i_community_leiden_directed] inside while loop after fastmovenodes
+0 0 0 0 1 2 2 2 2 3
+[igraph_i_community_leiden_directed] after while loop
+0 0 0 0 1 2 2 2 2 3
+my_rank: 0 no of clusters: 4 no_of_nodes: 10 no_of_edges: 21
+0 0 0 0 1 2 2 2 2 3

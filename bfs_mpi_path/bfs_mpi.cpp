@@ -1,7 +1,7 @@
 /*
   bfs mpi no cuda path
-  compile: 
-  run: mpirun -n <nprocs> astar <grid_size> <start_node> <end_node> <heuristic>
+  compile: mpicxx bfs_mpi.cpp -I/usr/local/include/igraph -L/usr/local/lib -ligraph -o bfs_mpi
+  run: mpirun -n 2 bfs_mpi
  */
 #include <igraph.h>
 #include <mpi.h>

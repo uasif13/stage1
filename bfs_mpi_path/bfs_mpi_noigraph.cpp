@@ -206,8 +206,8 @@ int MPI_Finalize(int my_rank, int nprocs, uint64_t * opCount)
   MPI_Gather(totalBytesOps, max_ops, MPI_UINT64_T, totalBytesOpsAgg, max_ops, MPI_UINT64_T, 0, MPI_COMM_WORLD);
 
   ofstream bfs_mpi_noig_telemetry;
-  double totalMpiTime[3];
-  uint64_t totalBytesTransferredTime[3];
+  double totalMpiTime[3] = {0,0,0};
+  uint64_t totalBytesTransferredTime[3] = {0,0,0};
   bfs_mpi_noig_telemetry.open("../logs/bfs_mpi_noig_telemetry.txt") ;
   int log_index;
   string log_line;

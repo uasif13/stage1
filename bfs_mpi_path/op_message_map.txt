@@ -1,0 +1,16 @@
+0	MPI_Bcast total_src array
+1	MPI_Bcast total_dst array
+2	MPI_Bcast src array
+3 	MPI_Bcast dst array
+4	MPI_Allgather nVV Visited before loop
+5	MPI_Allgather nVV Visited inside loop after bfs
+6	MPI_AlltoAll gList
+7	MPI_AlltoAll openList
+8	MPI_AlltoAll closedList
+9	MPI_AlltoAll parent
+10	MPI_Allgather nVV Visited inside loop after aggregate
+11	MPI_Allgather parent
+12	MPI_Allgather gList
+13	MPI_Allgather opCountArr
+
+"MPI_Bcast total_src array", "MPI_Bcast total_dst array", "MPI_Bcast src array", "MPI_Bcast dst array", "MPI_Allgather nVV Visited before loop", "MPI_Allgather nVV Visited inside loop after bfs", "MPI_AlltoAll gList", "MPI_AlltoAll openList", "MPI_AlltoAll closedList", "MPI_AlltoAll parent", "MPI_Allgather nVV Visited inside loop after aggregate", "MPI_Allgather parent", "MPI_Allgather gList", "MPI_Allgather opCountArr"

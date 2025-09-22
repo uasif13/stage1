@@ -1,0 +1,203 @@
+my_rank: 0 iteration: -1 MPI_Routine: MPI_Bcast total_src array WallTime: 0.000016 Bytes Transferred: 8
+my_rank: 0 iteration: -1 MPI_Routine: MPI_Bcast total_dst array WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: -1 MPI_Routine: MPI_Bcast src array WallTime: 0.000097 Bytes Transferred: 276376
+my_rank: 0 iteration: -1 MPI_Routine: MPI_Bcast dst array WallTime: 0.001078 Bytes Transferred: 3372624
+my_rank: 0 iteration: -1 MPI_Routine: MPI_Allgather nVV Visited before loop WallTime: 0.000012 Bytes Transferred: 8
+my_rank: 0 iteration: -1 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000001 Bytes Transferred: 8
+my_rank: 0 iteration: -1 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000136 Bytes Transferred: 138184
+my_rank: 0 iteration: -1 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000120 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000100 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000103 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000018 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000016 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 1 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 1 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 1 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 1 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 1 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 1 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 2 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000001 Bytes Transferred: 8
+my_rank: 0 iteration: 2 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 2 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 2 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 2 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 2 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 3 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 3 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 3 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 3 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 3 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000023 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000016 Bytes Transferred: 138184
+my_rank: 0 iteration: 3 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 4 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 4 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 0 iteration: 4 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 4 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 4 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 0 iteration: 4 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 5 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 5 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 5 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 5 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000001 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 5 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 5 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 6 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 6 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000011 Bytes Transferred: 138184
+my_rank: 0 iteration: 6 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 6 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 6 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 6 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 0 iteration: 7 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 0 iteration: 0 MPI_Routine: MPI_Allgather parent WallTime: 0.000018 Bytes Transferred: 138184
+my_rank: 0 iteration: 7 MPI_Routine: MPI_Allgather gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 1 iteration: -1 MPI_Routine: MPI_Bcast total_src array WallTime: 0.021404 Bytes Transferred: 8
+my_rank: 1 iteration: -1 MPI_Routine: MPI_Bcast total_dst array WallTime: 0.000002 Bytes Transferred: 8
+my_rank: 1 iteration: -1 MPI_Routine: MPI_Bcast src array WallTime: 0.000096 Bytes Transferred: 276376
+my_rank: 1 iteration: -1 MPI_Routine: MPI_Bcast dst array WallTime: 0.001078 Bytes Transferred: 3372624
+my_rank: 1 iteration: -1 MPI_Routine: MPI_Allgather nVV Visited before loop WallTime: 0.000006 Bytes Transferred: 8
+my_rank: 1 iteration: -1 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000001 Bytes Transferred: 8
+my_rank: 1 iteration: -1 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000137 Bytes Transferred: 138184
+my_rank: 1 iteration: -1 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000121 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000098 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000105 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000001 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000018 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000016 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 1 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 1 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 1 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 1 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 1 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 1 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 2 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000001 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 2 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 2 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 2 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 2 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 2 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 3 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 3 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000017 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 3 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 3 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 3 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000023 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000016 Bytes Transferred: 138184
+my_rank: 1 iteration: 3 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 4 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 4 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 4 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 4 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 4 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000015 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 4 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 5 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 5 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 5 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 5 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 5 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000014 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 5 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 6 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 6 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000011 Bytes Transferred: 138184
+my_rank: 1 iteration: 6 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000011 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 6 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather nVV Visited inside loop after bfs WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 6 MPI_Routine: MPI_AlltoAll gList WallTime: 0.000013 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll openList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 6 MPI_Routine: MPI_AlltoAll closedList WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 0 MPI_Routine: MPI_AlltoAll parent WallTime: 0.000012 Bytes Transferred: 138184
+my_rank: 1 iteration: 7 MPI_Routine: MPI_Allgather nVV Visited inside loop after aggregate WallTime: 0.000000 Bytes Transferred: 8
+my_rank: 1 iteration: 0 MPI_Routine: MPI_Allgather parent WallTime: 0.000018 Bytes Transferred: 138184
+my_rank: 1 iteration: 7 MPI_Routine: MPI_Allgather gList WallTime: 0.000017 Bytes Transferred: 138184
+---------------------Cumulative Time and Bytes Transferred by Routine Type--------------------
+Wall Time
+MPI_Bcast: 0.023772
+MPI_Allgather: 0.000018
+MPI_Alltoall: 0.002516
+Bytes Transferred
+MPI_Bcast: 140607308152352
+MPI_Allgather: 140607300853020
+MPI_Alltoall: 140720444861664
